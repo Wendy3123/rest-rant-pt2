@@ -5,7 +5,7 @@ const app = express()
 app.use('/places',require('./controllers/places'))
 
 app.get('/', (req, res) => {
-    res.send('Hello world!')
+    res.send('Hello from Wendys world!')
 })
 
 app.get('*',(req,res)=>{      //'*' is a wild card symbol.Make another route below your homepage route with the path set to the wildcard operator. It is important that this route is at the bottom, otherwise it will override your other pages.
