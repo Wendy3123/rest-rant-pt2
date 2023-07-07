@@ -19,6 +19,7 @@ REST-Rant is an app where users can review restaurants.
 
 
 
+|Restaurant Name | City         | State      | Cuisine Type   |Pic url|
 | :--------------| :----------  | :----------| :------------- |:----|
 |La Rotisserie   | Bayside      | NY         | French         |pic  |
 |Violets         | Orange       | CA         | Vietnamese     |pic  |
