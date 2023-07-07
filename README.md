@@ -1,7 +1,20 @@
 # Project REST-Rant
 
-REST-Rant is an app where users can review restaurants.
+TBD-SUMMARY
+(REST-Rant is an app where users can review restaurants.)
 
+
+## Tech Usage
+CSS Framework: Bootstrap
+
+Stack: MongoDB, Express, NodeJS
+
+Server-Side Rendering: JSX
+
+Node Modules: method-override, dotenv, express-react-views
+
+
+## Routes
 
 | method     | path                     | purpose                                           |
 | :--------- | :----------------------  | :-----------------------------------------------  |
@@ -18,12 +31,26 @@ REST-Rant is an app where users can review restaurants.
 |DELETE      |             *            | 404 page (matches any route not defined above)    |
 
 
+## Database
+Places
+| Field          | Type     |
+| :------------- |:---------|
+| _id            |Object ID |
+| name           |String    |
+| city           |String    |
+| state          |String    |
+| pic            |String    |
 
-|Restaurant Name | City         | State      | Cuisine Type   |Pic url|
-| :--------------| :----------  | :----------| :------------- |:----|
-|La Rotisserie   | Bayside      | NY         | French         |pic  |
-|Violets         | Orange       | CA         | Vietnamese     |pic  |
-|Marios          | Maine        | WA         | Colombian      |pic  |
+
+Rants
+| Field          | Type                |
+| :------------- |:--------------------|
+| _id            |Object_Id            |
+| place_id       |ref(places) Object_Id|
+| rant           |Boolean              |
+| rating         |Number               |
+| comment        |String               |
+| reviewer       |String               |
 
 
 
@@ -35,10 +62,7 @@ TBD
 ### Wireframes
 TBD
 
-### Notes
-
-<br />
-
+## Notes
 
 Possible bonus ideas:
 <ul>
