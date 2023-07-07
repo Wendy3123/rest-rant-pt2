@@ -37,4 +37,12 @@ TBD
 
 ### Notes
 
+<br />
 
+
+Possible bonus ideas:
+<ul>
+    <li>update for comments</li>
+    <li>aggregate rating for a place</li>
+    <li>Auto-complete state dropdown</li>
+</ul>
