@@ -18,7 +18,7 @@ Node Modules: method-override, dotenv, express-react-views
 
 | method     | path                     | purpose                                           |
 | :--------- | :----------------------  | :-----------------------------------------------  |
-| GET        | <style><span style="background-color:red"> /</span> </style>               | Home Page                                         |
+| GET        | /                        | Home Page                                         |
 | GET        | /places                  | places index page                                 |
 | POST       | /places                  | creates new place                                 |
 | GET        | /places/new              | Form page for creating a new place                |
